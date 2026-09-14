@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "lausi_smp_custom_music_discs:item/dubstep"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "music_disc.epic": {
+    "sounds": [
+      {
+        "name": "lausi_smp_custom_music_discs:music_disc/epic",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.dubstep": {
+    "sounds": [
+      {
+        "name": "lausi_smp_custom_music_discs:music_disc/dubstep",
+        "stream": true
+      }
+    ]
+  }
+}
