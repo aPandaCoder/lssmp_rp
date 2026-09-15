@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "lssmp:item/dubstep"
+    "model": "lssmp_rp:item/dubstep"
   }
 }
