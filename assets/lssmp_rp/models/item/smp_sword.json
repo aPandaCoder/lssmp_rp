@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "lausi_smp_custom_music_discs:item/smp_sword"
+    "layer0": "lssmp_rp:item/smp_sword"
   }
 }
