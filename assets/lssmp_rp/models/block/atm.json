@@ -1,0 +1,7 @@
+{
+  "parent": "lssmp:block/atm",
+  "textures": {
+    "layer0": "lssmp_rp:block/atm"
+  },
+  "elements": []
+}
