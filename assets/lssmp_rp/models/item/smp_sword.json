@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/netherite_sword",
-  "textures": {
-    "layer0": "lssmp_rp:item/smp_sword"
-  }
-}
