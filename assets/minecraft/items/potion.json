@@ -28,7 +28,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/water_bottle"
+      "model": "minecraft:item/potion"
     }
   }
 }
