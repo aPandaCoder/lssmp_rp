@@ -15,7 +15,7 @@
         "when": "Fanta",
         "model": {
           "type": "minecraft:model",
-          "model": "lssmp_rp:item/fanta"
+          "model": "lssmp:item/fanta"
         }
       },
       {
