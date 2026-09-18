@@ -24,6 +24,27 @@
           "type": "minecraft:model",
           "model": "lssmp:item/ice_tea"
         }
+      },
+      {
+        "when": "Beer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lssmp:item/beer"
+        }
+      },
+      {
+        "when": "Wine",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lssmp:item/wine"
+        }
+      },
+      {
+        "when": "Vodka",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lssmp:item/voka"
+        }
       }
     ],
     "fallback": {
