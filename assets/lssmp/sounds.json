@@ -1,0 +1,146 @@
+{
+  "music_disc.epic": {
+    "sounds": [
+      {
+        "name": "lssmp_rp:music_disc/epic",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.dubstep": {
+    "sounds": [
+      {
+        "name": "lssmp_rp:music_disc/dubstep",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.light_it_up": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/light_it_up",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.like_a_prayer": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/like_a_prayer",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.new_rules": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/new_rules",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.opus": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/opus",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.right_round": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/right_round",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.shooting_stars": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/shooting_stars",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.terms_and_conditions": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/terms_and_conditions",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.welcome_to_miami": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/welcome_to_miami",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.kids": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/kids",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.levels": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/levels",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.neverender": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/neverender",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.one_more_time": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/one_more_time",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.sandstorm": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/sandstorm",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.talk_to_you": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/talk_to_you",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.fame_is_a_gun": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/fame_is_a_gun",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.feels": {
+    "sounds": [
+      {
+        "name": "lssmp:music_disc/feels",
+        "stream": true
+      }
+    ]
+  }
+}
