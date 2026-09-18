@@ -43,7 +43,7 @@
         "when": "Vodka",
         "model": {
           "type": "minecraft:model",
-          "model": "lssmp:item/voka"
+          "model": "lssmp:item/vodka"
         }
       }
     ],
