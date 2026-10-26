@@ -5,7 +5,7 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "DiscoTicket",
+        "when": "Ticket",
         "model": {
           "type": "minecraft:model",
           "model": "lssmp_rp:item/ticket"
