@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "lssmp_rp:item/smp_sword"
+    "model": "lssmp:item/smp_sword"
   }
 } 
