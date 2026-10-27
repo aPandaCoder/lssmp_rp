@@ -5,7 +5,7 @@
       "predicate": "minecraft:stored_enchantments",
       "value": [
         {
-          "enchantments": "agility_enchantment:agility",
+          "enchantments": "lssmp:agility",
           "levels": {
             "min": 1,
             "max": 10
@@ -22,7 +22,7 @@
         "predicate": "minecraft:stored_enchantments",
         "value": [
           {
-            "enchantments": "air_jump_enchantment:air_jump",
+            "enchantments": "lssmp:air_jump",
             "levels": {
               "min": 1,
               "max": 10
@@ -39,7 +39,7 @@
           "predicate": "minecraft:stored_enchantments",
           "value": [
             {
-              "enchantments": "anti_knockback_enchantment:anti_knockback",
+              "enchantments": "lssmp:anti_knockback",
               "levels": {
                 "min": 1,
                 "max": 10
@@ -56,7 +56,7 @@
             "predicate": "minecraft:stored_enchantments",
             "value": [
               {
-                "enchantments": "attack_speed_enchantment:attack_speed",
+                "enchantments": "lssmp:attack_speed",
                 "levels": {
                   "min": 1,
                   "max": 10
@@ -73,7 +73,7 @@
               "predicate": "minecraft:stored_enchantments",
               "value": [
                 {
-                  "enchantments": "burnless_enchantment:burnless",
+                  "enchantments": "lssmp:burnless",
                   "levels": {
                     "min": 1,
                     "max": 10
@@ -90,7 +90,7 @@
                 "predicate": "minecraft:stored_enchantments",
                 "value": [
                   {
-                    "enchantments": "eternal_enchantment:eternal",
+                    "enchantments": "lssmp:eternal",
                     "levels": {
                       "min": 1,
                       "max": 10
@@ -107,7 +107,7 @@
                   "predicate": "minecraft:stored_enchantments",
                   "value": [
                     {
-                      "enchantments": "fangs_enchantment:fangs",
+                      "enchantments": "lssmp:fangs",
                       "levels": {
                         "min": 1,
                         "max": 10
@@ -124,7 +124,7 @@
                     "predicate": "minecraft:stored_enchantments",
                     "value": [
                       {
-                        "enchantments": "freezing_enchantment:freezing",
+                        "enchantments": "lssmp:freezing",
                         "levels": {
                           "min": 1,
                           "max": 10
@@ -141,7 +141,7 @@
                       "predicate": "minecraft:stored_enchantments",
                       "value": [
                         {
-                          "enchantments": "gravity_enchantment:gravity",
+                          "enchantments": "lssmp:gravity",
                           "levels": {
                             "min": 1,
                             "max": 10
@@ -158,7 +158,7 @@
                         "predicate": "minecraft:stored_enchantments",
                         "value": [
                           {
-                            "enchantments": "health_enchantment:health",
+                            "enchantments": "lssmp:health",
                             "levels": {
                               "min": 1,
                               "max": 10
@@ -175,7 +175,7 @@
                           "predicate": "minecraft:stored_enchantments",
                           "value": [
                             {
-                              "enchantments": "leaping_enchantment:leaping",
+                              "enchantments": "lssmp:leaping",
                               "levels": {
                                 "min": 1,
                                 "max": 10
@@ -192,7 +192,7 @@
                             "predicate": "minecraft:stored_enchantments",
                             "value": [
                               {
-                                "enchantments": "life_steal_enchantment:life_steal",
+                                "enchantments": "lssmp:life_steal",
                                 "levels": {
                                   "min": 1,
                                   "max": 10
@@ -209,7 +209,7 @@
                               "predicate": "minecraft:stored_enchantments",
                               "value": [
                                 {
-                                  "enchantments": "magnetic_enchantment:magnetic",
+                                  "enchantments": "lssmp:magnetic",
                                   "levels": {
                                     "min": 1,
                                     "max": 10
@@ -226,7 +226,7 @@
                                 "predicate": "minecraft:stored_enchantments",
                                 "value": [
                                   {
-                                    "enchantments": "path_speed_enchantment:path_speed",
+                                    "enchantments": "lssmp:path_speed",
                                     "levels": {
                                       "min": 1,
                                       "max": 10
@@ -243,7 +243,7 @@
                                   "predicate": "minecraft:stored_enchantments",
                                   "value": [
                                     {
-                                      "enchantments": "poisoning_enchantment:poisoning",
+                                      "enchantments": "lssmp:poisoning",
                                       "levels": {
                                         "min": 1,
                                         "max": 10
@@ -260,7 +260,7 @@
                                     "predicate": "minecraft:stored_enchantments",
                                     "value": [
                                       {
-                                        "enchantments": "projectile_deflection_enchantment:projectile_deflection",
+                                        "enchantments": "lssmp:projectile_deflection",
                                         "levels": {
                                           "min": 1,
                                           "max": 10
@@ -277,7 +277,7 @@
                                       "predicate": "minecraft:stored_enchantments",
                                       "value": [
                                         {
-                                          "enchantments": "reach_enchantment:reach",
+                                          "enchantments": "lssmp:reach",
                                           "levels": {
                                             "min": 1,
                                             "max": 10
@@ -294,7 +294,7 @@
                                         "predicate": "minecraft:stored_enchantments",
                                         "value": [
                                           {
-                                            "enchantments": "smelting_enchantment:smelting",
+                                            "enchantments": "lssmp:smelting",
                                             "levels": {
                                               "min": 1,
                                               "max": 10
@@ -311,7 +311,7 @@
                                           "predicate": "minecraft:stored_enchantments",
                                           "value": [
                                             {
-                                              "enchantments": "soulbound_enchantment:soulbound",
+                                              "enchantments": "lssmp:soulbound",
                                               "levels": {
                                                 "min": 1,
                                                 "max": 10
@@ -328,7 +328,7 @@
                                             "predicate": "minecraft:stored_enchantments",
                                             "value": [
                                               {
-                                                "enchantments": "spectral_enchantment:spectral",
+                                                "enchantments": "lssmp:spectral",
                                                 "levels": {
                                                   "min": 1,
                                                   "max": 10
@@ -345,7 +345,7 @@
                                               "predicate": "minecraft:stored_enchantments",
                                               "value": [
                                                 {
-                                                  "enchantments": "spiky_enchantment:spiky",
+                                                  "enchantments": "lssmp:spiky",
                                                   "levels": {
                                                     "min": 1,
                                                     "max": 10
@@ -379,7 +379,7 @@
                                                   "predicate": "minecraft:stored_enchantments",
                                                   "value": [
                                                     {
-                                                      "enchantments": "thunder_strike_enchantment:thunder_strike",
+                                                      "enchantments": "lssmp:thunder_strike",
                                                       "levels": {
                                                         "min": 1,
                                                         "max": 10
@@ -396,7 +396,7 @@
                                                     "predicate": "minecraft:stored_enchantments",
                                                     "value": [
                                                       {
-                                                        "enchantments": "timber_enchantment:timber",
+                                                        "enchantments": "lssmp:timber",
                                                         "levels": {
                                                           "min": 1,
                                                           "max": 10
@@ -413,7 +413,7 @@
                                                       "predicate": "minecraft:stored_enchantments",
                                                       "value": [
                                                         {
-                                                          "enchantments": "toughness_enchantment:toughness",
+                                                          "enchantments": "lssmp:toughness",
                                                           "levels": {
                                                             "min": 1,
                                                             "max": 10
@@ -430,7 +430,7 @@
                                                         "predicate": "minecraft:stored_enchantments",
                                                         "value": [
                                                           {
-                                                            "enchantments": "true_shot_enchantment:true_shot",
+                                                            "enchantments": "lssmp:true_shot",
                                                             "levels": {
                                                               "min": 1,
                                                               "max": 10
@@ -447,7 +447,7 @@
                                                           "predicate": "minecraft:stored_enchantments",
                                                           "value": [
                                                             {
-                                                              "enchantments": "undying_enchantment:undying",
+                                                              "enchantments": "lssmp:undying",
                                                               "levels": {
                                                                 "min": 1,
                                                                 "max": 10
@@ -464,7 +464,7 @@
                                                             "predicate": "minecraft:stored_enchantments",
                                                             "value": [
                                                               {
-                                                                "enchantments": "veinminer_enchantment:veinminer",
+                                                                "enchantments": "lssmp:veinminer",
                                                                 "levels": {
                                                                   "min": 1,
                                                                   "max": 10
@@ -481,7 +481,7 @@
                                                               "predicate": "minecraft:stored_enchantments",
                                                               "value": [
                                                                 {
-                                                                  "enchantments": "vision_enchantment:vision",
+                                                                  "enchantments": "lssmp:vision",
                                                                   "levels": {
                                                                     "min": 1,
                                                                     "max": 10
@@ -498,7 +498,7 @@
                                                                 "predicate": "minecraft:stored_enchantments",
                                                                 "value": [
                                                                   {
-                                                                    "enchantments": "withering_enchantment:withering",
+                                                                    "enchantments": "lssmp:withering",
                                                                     "levels": {
                                                                       "min": 1,
                                                                       "max": 10
@@ -515,7 +515,7 @@
                                                                   "predicate": "minecraft:stored_enchantments",
                                                                   "value": [
                                                                     {
-                                                                      "enchantments": "xp_boost_enchantment:xp_boost",
+                                                                      "enchantments": "lssmp:xp_boost",
                                                                       "levels": {
                                                                         "min": 1,
                                                                         "max": 10
@@ -532,7 +532,7 @@
                                                                     "predicate": "minecraft:stored_enchantments",
                                                                     "value": [
                                                                       {
-                                                                        "enchantments": "longevity_enchantment:longevity",
+                                                                        "enchantments": "lssmp:longevity",
                                                                         "levels": {
                                                                           "min": 1,
                                                                           "max": 10
@@ -549,7 +549,7 @@
                                                                       "predicate": "minecraft:stored_enchantments",
                                                                       "value": [
                                                                         {
-                                                                          "enchantments": "double_hit_enchantment:double_hit",
+                                                                          "enchantments": "lssmp:double_hit",
                                                                           "levels": {
                                                                             "min": 1,
                                                                             "max": 10
@@ -566,7 +566,7 @@
                                                                         "predicate": "minecraft:stored_enchantments",
                                                                         "value": [
                                                                           {
-                                                                            "enchantments": "cobweb_enchantment:cobweb",
+                                                                            "enchantments": "lssmp:cobweb",
                                                                             "levels": {
                                                                               "min": 1,
                                                                               "max": 10
@@ -583,7 +583,7 @@
                                                                           "predicate": "minecraft:stored_enchantments",
                                                                           "value": [
                                                                             {
-                                                                              "enchantments": "downfall_enchantment:downfall",
+                                                                              "enchantments": "lssmp:downfall",
                                                                               "levels": {
                                                                                 "min": 1,
                                                                                 "max": 10
@@ -600,7 +600,7 @@
                                                                             "predicate": "minecraft:stored_enchantments",
                                                                             "value": [
                                                                               {
-                                                                                "enchantments": "flight_enchantment:flight",
+                                                                                "enchantments": "lssmp:flight",
                                                                                 "levels": {
                                                                                   "min": 1,
                                                                                   "max": 10
