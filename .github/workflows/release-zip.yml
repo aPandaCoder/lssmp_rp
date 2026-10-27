@@ -1,24 +1,28 @@
-name: Auto Release ZIP
-
-on:
-  push:
-    branches: [ main ]
-
-jobs:
-  release:
-    runs-on: ubuntu-latest
+```
     steps:
     - uses: actions/checkout@v4
 
-    - name: Create zip
+    - uses: actions/setup-java@v4
+      with:
+        distribution: temurin
+        java-version: '21'
+
+    - name: Create Java zip
+      run: zip -r project.zip ./* -x "*.DS_Store"
+
+    - name: Convert to Bedrock (GeyserMC Thunder)
       run: |
-        zip -r project.zip ./*
+        curl -fsSL -o Thunder.jar https://download.geysermc.org/v2/projects/thunder/versions/latest/builds/latest/downloads/thunder
+        java -jar Thunder.jar nogui --input project.zip --output lssmp_bedrock.mcpack
 
     - name: Create / update release
       uses: softprops/action-gh-release@v1
       with:
         tag_name: latest
         name: Latest
-        files: project.zip
+        files: |
+          project.zip
+          lssmp_bedrock.mcpack
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
