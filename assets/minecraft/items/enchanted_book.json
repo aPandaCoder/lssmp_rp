@@ -1,0 +1,654 @@
+{
+    "model": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:stored_enchantments",
+      "value": [
+        {
+          "enchantments": "agility_enchantment:agility",
+          "levels": {
+            "min": 1,
+            "max": 10
+          }
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "lullaby:item/agility"
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "air_jump_enchantment:air_jump",
+            "levels": {
+              "min": 1,
+              "max": 10
+            }
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "lullaby:item/air_jump"
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:stored_enchantments",
+          "value": [
+            {
+              "enchantments": "anti_knockback_enchantment:anti_knockback",
+              "levels": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          ],
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "lullaby:item/anti_knockback"
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:stored_enchantments",
+            "value": [
+              {
+                "enchantments": "attack_speed_enchantment:attack_speed",
+                "levels": {
+                  "min": 1,
+                  "max": 10
+                }
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "lullaby:item/attack_speed"
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:stored_enchantments",
+              "value": [
+                {
+                  "enchantments": "burnless_enchantment:burnless",
+                  "levels": {
+                    "min": 1,
+                    "max": 10
+                  }
+                }
+              ],
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "lullaby:item/burnless"
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:stored_enchantments",
+                "value": [
+                  {
+                    "enchantments": "eternal_enchantment:eternal",
+                    "levels": {
+                      "min": 1,
+                      "max": 10
+                    }
+                  }
+                ],
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "lullaby:item/eternal"
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:stored_enchantments",
+                  "value": [
+                    {
+                      "enchantments": "fangs_enchantment:fangs",
+                      "levels": {
+                        "min": 1,
+                        "max": 10
+                      }
+                    }
+                  ],
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "lullaby:item/fangs"
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:stored_enchantments",
+                    "value": [
+                      {
+                        "enchantments": "freezing_enchantment:freezing",
+                        "levels": {
+                          "min": 1,
+                          "max": 10
+                        }
+                      }
+                    ],
+                    "on_true": {
+                      "type": "minecraft:model",
+                      "model": "lullaby:item/freezing"
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:stored_enchantments",
+                      "value": [
+                        {
+                          "enchantments": "gravity_enchantment:gravity",
+                          "levels": {
+                            "min": 1,
+                            "max": 10
+                          }
+                        }
+                      ],
+                      "on_true": {
+                        "type": "minecraft:model",
+                        "model": "lullaby:item/gravity"
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:stored_enchantments",
+                        "value": [
+                          {
+                            "enchantments": "health_enchantment:health",
+                            "levels": {
+                              "min": 1,
+                              "max": 10
+                            }
+                          }
+                        ],
+                        "on_true": {
+                          "type": "minecraft:model",
+                          "model": "lullaby:item/health"
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:stored_enchantments",
+                          "value": [
+                            {
+                              "enchantments": "leaping_enchantment:leaping",
+                              "levels": {
+                                "min": 1,
+                                "max": 10
+                              }
+                            }
+                          ],
+                          "on_true": {
+                            "type": "minecraft:model",
+                            "model": "lullaby:item/leaping"
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:stored_enchantments",
+                            "value": [
+                              {
+                                "enchantments": "life_steal_enchantment:life_steal",
+                                "levels": {
+                                  "min": 1,
+                                  "max": 10
+                                }
+                              }
+                            ],
+                            "on_true": {
+                              "type": "minecraft:model",
+                              "model": "lullaby:item/lifesteal"
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:stored_enchantments",
+                              "value": [
+                                {
+                                  "enchantments": "magnetic_enchantment:magnetic",
+                                  "levels": {
+                                    "min": 1,
+                                    "max": 10
+                                  }
+                                }
+                              ],
+                              "on_true": {
+                                "type": "minecraft:model",
+                                "model": "lullaby:item/magnetic"
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:stored_enchantments",
+                                "value": [
+                                  {
+                                    "enchantments": "path_speed_enchantment:path_speed",
+                                    "levels": {
+                                      "min": 1,
+                                      "max": 10
+                                    }
+                                  }
+                                ],
+                                "on_true": {
+                                  "type": "minecraft:model",
+                                  "model": "lullaby:item/path_speed"
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:stored_enchantments",
+                                  "value": [
+                                    {
+                                      "enchantments": "poisoning_enchantment:poisoning",
+                                      "levels": {
+                                        "min": 1,
+                                        "max": 10
+                                      }
+                                    }
+                                  ],
+                                  "on_true": {
+                                    "type": "minecraft:model",
+                                    "model": "lullaby:item/poisoning"
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:stored_enchantments",
+                                    "value": [
+                                      {
+                                        "enchantments": "projectile_deflection_enchantment:projectile_deflection",
+                                        "levels": {
+                                          "min": 1,
+                                          "max": 10
+                                        }
+                                      }
+                                    ],
+                                    "on_true": {
+                                      "type": "minecraft:model",
+                                      "model": "lullaby:item/projectile_deflection"
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:stored_enchantments",
+                                      "value": [
+                                        {
+                                          "enchantments": "reach_enchantment:reach",
+                                          "levels": {
+                                            "min": 1,
+                                            "max": 10
+                                          }
+                                        }
+                                      ],
+                                      "on_true": {
+                                        "type": "minecraft:model",
+                                        "model": "lullaby:item/reach"
+                                      },
+                                      "on_false": {
+                                        "type": "minecraft:condition",
+                                        "property": "minecraft:component",
+                                        "predicate": "minecraft:stored_enchantments",
+                                        "value": [
+                                          {
+                                            "enchantments": "smelting_enchantment:smelting",
+                                            "levels": {
+                                              "min": 1,
+                                              "max": 10
+                                            }
+                                          }
+                                        ],
+                                        "on_true": {
+                                          "type": "minecraft:model",
+                                          "model": "lullaby:item/smelting"
+                                        },
+                                        "on_false": {
+                                          "type": "minecraft:condition",
+                                          "property": "minecraft:component",
+                                          "predicate": "minecraft:stored_enchantments",
+                                          "value": [
+                                            {
+                                              "enchantments": "soulbound_enchantment:soulbound",
+                                              "levels": {
+                                                "min": 1,
+                                                "max": 10
+                                              }
+                                            }
+                                          ],
+                                          "on_true": {
+                                            "type": "minecraft:model",
+                                            "model": "lullaby:item/soulbound"
+                                          },
+                                          "on_false": {
+                                            "type": "minecraft:condition",
+                                            "property": "minecraft:component",
+                                            "predicate": "minecraft:stored_enchantments",
+                                            "value": [
+                                              {
+                                                "enchantments": "spectral_enchantment:spectral",
+                                                "levels": {
+                                                  "min": 1,
+                                                  "max": 10
+                                                }
+                                              }
+                                            ],
+                                            "on_true": {
+                                              "type": "minecraft:model",
+                                              "model": "lullaby:item/spectral"
+                                            },
+                                            "on_false": {
+                                              "type": "minecraft:condition",
+                                              "property": "minecraft:component",
+                                              "predicate": "minecraft:stored_enchantments",
+                                              "value": [
+                                                {
+                                                  "enchantments": "spiky_enchantment:spiky",
+                                                  "levels": {
+                                                    "min": 1,
+                                                    "max": 10
+                                                  }
+                                                }
+                                              ],
+                                              "on_true": {
+                                                "type": "minecraft:model",
+                                                "model": "lullaby:item/spiky"
+                                              },
+                                              "on_false": {
+                                                "type": "minecraft:condition",
+                                                "property": "minecraft:component",
+                                                "predicate": "minecraft:stored_enchantments",
+                                                "value": [
+                                                  {
+                                                    "enchantments": "minecraft:swiftness",
+                                                    "levels": {
+                                                      "min": 1,
+                                                      "max": 10
+                                                    }
+                                                  }
+                                                ],
+                                                "on_true": {
+                                                  "type": "minecraft:model",
+                                                  "model": "lullaby:item/swiftness"
+                                                },
+                                                "on_false": {
+                                                  "type": "minecraft:condition",
+                                                  "property": "minecraft:component",
+                                                  "predicate": "minecraft:stored_enchantments",
+                                                  "value": [
+                                                    {
+                                                      "enchantments": "thunder_strike_enchantment:thunder_strike",
+                                                      "levels": {
+                                                        "min": 1,
+                                                        "max": 10
+                                                      }
+                                                    }
+                                                  ],
+                                                  "on_true": {
+                                                    "type": "minecraft:model",
+                                                    "model": "lullaby:item/thunder_strike"
+                                                  },
+                                                  "on_false": {
+                                                    "type": "minecraft:condition",
+                                                    "property": "minecraft:component",
+                                                    "predicate": "minecraft:stored_enchantments",
+                                                    "value": [
+                                                      {
+                                                        "enchantments": "timber_enchantment:timber",
+                                                        "levels": {
+                                                          "min": 1,
+                                                          "max": 10
+                                                        }
+                                                      }
+                                                    ],
+                                                    "on_true": {
+                                                      "type": "minecraft:model",
+                                                      "model": "lullaby:item/timber"
+                                                    },
+                                                    "on_false": {
+                                                      "type": "minecraft:condition",
+                                                      "property": "minecraft:component",
+                                                      "predicate": "minecraft:stored_enchantments",
+                                                      "value": [
+                                                        {
+                                                          "enchantments": "toughness_enchantment:toughness",
+                                                          "levels": {
+                                                            "min": 1,
+                                                            "max": 10
+                                                          }
+                                                        }
+                                                      ],
+                                                      "on_true": {
+                                                        "type": "minecraft:model",
+                                                        "model": "lullaby:item/toughness"
+                                                      },
+                                                      "on_false": {
+                                                        "type": "minecraft:condition",
+                                                        "property": "minecraft:component",
+                                                        "predicate": "minecraft:stored_enchantments",
+                                                        "value": [
+                                                          {
+                                                            "enchantments": "true_shot_enchantment:true_shot",
+                                                            "levels": {
+                                                              "min": 1,
+                                                              "max": 10
+                                                            }
+                                                          }
+                                                        ],
+                                                        "on_true": {
+                                                          "type": "minecraft:model",
+                                                          "model": "lullaby:item/true_shot"
+                                                        },
+                                                        "on_false": {
+                                                          "type": "minecraft:condition",
+                                                          "property": "minecraft:component",
+                                                          "predicate": "minecraft:stored_enchantments",
+                                                          "value": [
+                                                            {
+                                                              "enchantments": "undying_enchantment:undying",
+                                                              "levels": {
+                                                                "min": 1,
+                                                                "max": 10
+                                                              }
+                                                            }
+                                                          ],
+                                                          "on_true": {
+                                                            "type": "minecraft:model",
+                                                            "model": "lullaby:item/undying"
+                                                          },
+                                                          "on_false": {
+                                                            "type": "minecraft:condition",
+                                                            "property": "minecraft:component",
+                                                            "predicate": "minecraft:stored_enchantments",
+                                                            "value": [
+                                                              {
+                                                                "enchantments": "veinminer_enchantment:veinminer",
+                                                                "levels": {
+                                                                  "min": 1,
+                                                                  "max": 10
+                                                                }
+                                                              }
+                                                            ],
+                                                            "on_true": {
+                                                              "type": "minecraft:model",
+                                                              "model": "lullaby:item/veinminer"
+                                                            },
+                                                            "on_false": {
+                                                              "type": "minecraft:condition",
+                                                              "property": "minecraft:component",
+                                                              "predicate": "minecraft:stored_enchantments",
+                                                              "value": [
+                                                                {
+                                                                  "enchantments": "vision_enchantment:vision",
+                                                                  "levels": {
+                                                                    "min": 1,
+                                                                    "max": 10
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "on_true": {
+                                                                "type": "minecraft:model",
+                                                                "model": "lullaby:item/vision"
+                                                              },
+                                                              "on_false": {
+                                                                "type": "minecraft:condition",
+                                                                "property": "minecraft:component",
+                                                                "predicate": "minecraft:stored_enchantments",
+                                                                "value": [
+                                                                  {
+                                                                    "enchantments": "withering_enchantment:withering",
+                                                                    "levels": {
+                                                                      "min": 1,
+                                                                      "max": 10
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "on_true": {
+                                                                  "type": "minecraft:model",
+                                                                  "model": "lullaby:item/withering"
+                                                                },
+                                                                "on_false": {
+                                                                  "type": "minecraft:condition",
+                                                                  "property": "minecraft:component",
+                                                                  "predicate": "minecraft:stored_enchantments",
+                                                                  "value": [
+                                                                    {
+                                                                      "enchantments": "xp_boost_enchantment:xp_boost",
+                                                                      "levels": {
+                                                                        "min": 1,
+                                                                        "max": 10
+                                                                      }
+                                                                    }
+                                                                  ],
+                                                                  "on_true": {
+                                                                    "type": "minecraft:model",
+                                                                    "model": "lullaby:item/xp_boost"
+                                                                  },
+                                                                  "on_false": {
+                                                                    "type": "minecraft:condition",
+                                                                    "property": "minecraft:component",
+                                                                    "predicate": "minecraft:stored_enchantments",
+                                                                    "value": [
+                                                                      {
+                                                                        "enchantments": "longevity_enchantment:longevity",
+                                                                        "levels": {
+                                                                          "min": 1,
+                                                                          "max": 10
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "on_true": {
+                                                                      "type": "minecraft:model",
+                                                                      "model": "lullaby:item/longevity"
+                                                                    },
+                                                                    "on_false": {
+                                                                      "type": "minecraft:condition",
+                                                                      "property": "minecraft:component",
+                                                                      "predicate": "minecraft:stored_enchantments",
+                                                                      "value": [
+                                                                        {
+                                                                          "enchantments": "double_hit_enchantment:double_hit",
+                                                                          "levels": {
+                                                                            "min": 1,
+                                                                            "max": 10
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "on_true": {
+                                                                        "type": "minecraft:model",
+                                                                        "model": "lullaby:item/double_hit"
+                                                                      },
+                                                                      "on_false": {
+                                                                        "type": "minecraft:condition",
+                                                                        "property": "minecraft:component",
+                                                                        "predicate": "minecraft:stored_enchantments",
+                                                                        "value": [
+                                                                          {
+                                                                            "enchantments": "cobweb_enchantment:cobweb",
+                                                                            "levels": {
+                                                                              "min": 1,
+                                                                              "max": 10
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "on_true": {
+                                                                          "type": "minecraft:model",
+                                                                          "model": "lullaby:item/cobweb"
+                                                                        },
+                                                                        "on_false": {
+                                                                          "type": "minecraft:condition",
+                                                                          "property": "minecraft:component",
+                                                                          "predicate": "minecraft:stored_enchantments",
+                                                                          "value": [
+                                                                            {
+                                                                              "enchantments": "downfall_enchantment:downfall",
+                                                                              "levels": {
+                                                                                "min": 1,
+                                                                                "max": 10
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "on_true": {
+                                                                            "type": "minecraft:model",
+                                                                            "model": "lullaby:item/downfall"
+                                                                          },
+                                                                          "on_false": {
+                                                                            "type": "minecraft:condition",
+                                                                            "property": "minecraft:component",
+                                                                            "predicate": "minecraft:stored_enchantments",
+                                                                            "value": [
+                                                                              {
+                                                                                "enchantments": "flight_enchantment:flight",
+                                                                                "levels": {
+                                                                                  "min": 1,
+                                                                                  "max": 10
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "on_true": {
+                                                                              "type": "minecraft:model",
+                                                                              "model": "lullaby:item/flight"
+                                                                            },
+                                                                            "on_false": {
+                                                                                "type": "minecraft:model",
+                                                                                "model": "minecraft:item/enchanted_book"
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }

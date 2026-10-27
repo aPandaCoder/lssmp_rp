@@ -8,7 +8,7 @@
         "when": "VIP Ticket",
         "model": {
           "type": "minecraft:model",
-          "model": "lssmp_rp:item/vip_ticket"
+          "model": "lssmp:item/vip_ticket"
         }
       }
     ],

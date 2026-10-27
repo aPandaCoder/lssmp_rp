@@ -8,7 +8,7 @@
         "when": "Ticket",
         "model": {
           "type": "minecraft:model",
-          "model": "lssmp_rp:item/ticket"
+          "model": "lssmp:item/ticket"
         }
       }
     ],
