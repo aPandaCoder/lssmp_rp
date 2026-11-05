@@ -25,8 +25,8 @@ jobs:
       - name: Convert to Bedrock (GeyserMC Thunder)
         run: |
           curl -fsSL -o Thunder.jar https://download.geysermc.org/v2/projects/thunder/versions/latest/builds/latest/downloads/thunder
-          java -jar Thunder.jar nogui --input lssmp_rp.zip --output lssmp_bedrock.mcpack
-          ls -la lssmp_bedrock.mcpack
+          java -jar Thunder.jar nogui --input lssmp_rp.zip --output lssmp_rp.mcpack
+          ls -la lssmp_rp.mcpack
 
       - name: Create / update release
         uses: softprops/action-gh-release@v2
@@ -35,4 +35,4 @@ jobs:
           name: Latest
           files: |
             lssmp_rp.zip
-            lssmp_bedrock.mcpack
+            lssmp_rp.mcpack
