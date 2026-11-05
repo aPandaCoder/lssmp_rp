@@ -20,12 +20,12 @@ jobs:
           java-version: '21'
 
       - name: Create Java zip
-        run: zip -r project.zip ./* -x "*.DS_Store"
+        run: zip -r lssmp_rp.zip ./* -x "*.DS_Store"
 
       - name: Convert to Bedrock (GeyserMC Thunder)
         run: |
           curl -fsSL -o Thunder.jar https://download.geysermc.org/v2/projects/thunder/versions/latest/builds/latest/downloads/thunder
-          java -jar Thunder.jar nogui --input project.zip --output lssmp_bedrock.mcpack
+          java -jar Thunder.jar nogui --input lssmp_rp.zip --output lssmp_bedrock.mcpack
           ls -la lssmp_bedrock.mcpack
 
       - name: Create / update release
@@ -34,5 +34,5 @@ jobs:
           tag_name: latest
           name: Latest
           files: |
-            project.zip
+            lssmp_rp.zip
             lssmp_bedrock.mcpack
