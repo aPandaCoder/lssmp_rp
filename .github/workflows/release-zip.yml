@@ -1,4 +1,3 @@
-```yaml
 name: Auto Release ZIP
 
 on:
@@ -108,4 +107,3 @@ jobs:
             geyser_resources.mcpack
             geyser_mappings.json
             geyser_addon.mcaddon
-```
