@@ -46,13 +46,36 @@ jobs:
           zip -r lssmp_rp.zip ./* -x "*.DS_Store"
           ls -lh lssmp_rp.zip
 
+
       - name: Download java2bedrock-sounds
         run: |
           git clone --depth 1 \
             https://github.com/MCCPF/java2bedrock-sounds.git \
             "$RUNNER_TEMP/java2bedrock-sounds"
 
-          cp lssmp_rp.zip "$RUNNER_TEMP/java2bedrock-sounds/"
+          cd "$RUNNER_TEMP/java2bedrock-sounds"
+
+          cp "$GITHUB_WORKSPACE/lssmp_rp.zip" .
+
+          echo "Installed jq version:"
+          jq --version
+
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path("converter.sh")
+          content = path.read_text()
+
+          old = '"1.6\\|1.7"'
+          new = '"1.6\\|1.7\\|1.8"'
+
+          if old not in content:
+              raise SystemExit("Could not find jq version check!")
+
+          path.write_text(content.replace(old, new, 1))
+          print("Updated jq version check successfully.")
+          PY
+
 
       - name: Convert Java pack to Bedrock
         run: |
