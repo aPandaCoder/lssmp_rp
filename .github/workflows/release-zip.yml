@@ -1,3 +1,4 @@
+```yaml
 name: Auto Release ZIP
 
 on:
@@ -33,6 +34,14 @@ jobs:
 
           sudo npm install --global spritesheet-js
 
+          echo "Checking dependencies..."
+          jq --version
+          command -v sponge
+          command -v convert
+          command -v mogrify
+          command -v spritesheet-js
+          ffmpeg -version | head -n 1
+
       - name: Create Java ZIP
         run: |
           zip -r lssmp_rp.zip ./* -x "*.DS_Store"
@@ -52,42 +61,51 @@ jobs:
 
           bash converter.sh lssmp_rp.zip \
             -w false \
-            -f none
+            -m null \
+            -a entity_alphatest_one_sided \
+            -b alpha_test \
+            -f null
 
-          test -f target/rp/manifest.json
-          test -f target/bp/manifest.json
-          test -f config.json
+          echo "Checking converter output..."
 
-      - name: Package Bedrock resource pack
+          test -s target/packaged/geyser_resources.mcpack
+          test -s target/geyser_mappings.json
+
+          jq empty target/geyser_mappings.json
+
+          echo "Conversion successful!"
+
+      - name: Copy Bedrock files
         run: |
-          cd "$RUNNER_TEMP/java2bedrock-sounds/target/rp"
-          zip -qr "$GITHUB_WORKSPACE/geyser_resources.mcpack" .
+          CONVERTER="$RUNNER_TEMP/java2bedrock-sounds"
 
-      - name: Package Bedrock behavior pack
-        run: |
-          cd "$RUNNER_TEMP/java2bedrock-sounds/target/bp"
-          zip -qr "$GITHUB_WORKSPACE/geyser_behavior.mcpack" .
+          cp "$CONVERTER/target/packaged/geyser_resources.mcpack" \
+            geyser_resources.mcpack
 
-      - name: Export Geyser mappings
-        run: |
-          cp "$RUNNER_TEMP/java2bedrock-sounds/config.json" \
+          cp "$CONVERTER/target/geyser_mappings.json" \
             geyser_mappings.json
+
+          cp "$CONVERTER/target/packaged/geyser_addon.mcaddon" \
+            geyser_addon.mcaddon
 
       - name: Check generated files
         run: |
+          echo "Generated files:"
           ls -lh \
             lssmp_rp.zip \
             geyser_resources.mcpack \
-            geyser_behavior.mcpack \
-            geyser_mappings.json
+            geyser_mappings.json \
+            geyser_addon.mcaddon
 
       - name: Create / update release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
           name: Latest
+          make_latest: true
           files: |
             lssmp_rp.zip
             geyser_resources.mcpack
-            geyser_behavior.mcpack
             geyser_mappings.json
+            geyser_addon.mcaddon
+```
