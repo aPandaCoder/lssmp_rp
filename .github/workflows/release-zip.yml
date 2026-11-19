@@ -45,6 +45,17 @@ jobs:
         run: |
           zip -r lssmp_rp.zip ./* -x "*.DS_Store"
           ls -lh lssmp_rp.zip
+          
+      - name: Debug resource pack structure
+        run: |
+          echo "Resource pack files:"
+          unzip -l lssmp_rp.zip | head -150
+
+          echo "Item definitions:"
+          unzip -l lssmp_rp.zip | grep -E 'assets/.*/(items|models/item)/'
+
+          echo "Sound definitions:"
+          unzip -l lssmp_rp.zip | grep -E 'sounds.json|\.ogg'
 
 
       - name: Download java2bedrock-sounds
