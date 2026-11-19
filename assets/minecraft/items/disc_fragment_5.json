@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 60010,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/aria_math_cinematic_orchestra_fragment"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/disc_fragment_5"
+    }
+  }
+}

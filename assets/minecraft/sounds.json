@@ -1,0 +1,11 @@
+{
+  "lsdisc.aria_math_cinematic_orchestra": {
+    "subtitle": "AMBNT - Aria Math - Cinematic Orchestra",
+    "sounds": [
+      {
+        "name": "records/aria_math_cinematic_orchestra",
+        "stream": true
+      }
+    ]
+  }
+}
