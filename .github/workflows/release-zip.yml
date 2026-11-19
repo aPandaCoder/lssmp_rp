@@ -1,3 +1,4 @@
+
 name: Auto Release ZIP
 
 on:
@@ -10,134 +11,28 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Install converter dependencies
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Create Java zip
+        run: zip -r lssmp_rp.zip ./* -x "*.DS_Store"
+
+      - name: Convert to Bedrock (GeyserMC Thunder)
         run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            moreutils \
-            jq \
-            imagemagick \
-            unzip \
-            zip \
-            nodejs \
-            npm \
-            uuid-runtime \
-            ffmpeg \
-            git
-
-          sudo npm install --global spritesheet-js
-
-          echo "Checking dependencies..."
-          jq --version
-          command -v sponge
-          command -v convert
-          command -v mogrify
-          command -v spritesheet-js
-          ffmpeg -version | head -n 1
-
-      - name: Create Java ZIP
-        run: |
-          zip -r lssmp_rp.zip ./* -x "*.DS_Store"
-          ls -lh lssmp_rp.zip
-          
-      - name: Debug resource pack structure
-        run: |
-          echo "Resource pack files:"
-          unzip -l lssmp_rp.zip | head -150
-
-          echo "Item definitions:"
-          unzip -l lssmp_rp.zip | grep -E 'assets/.*/(items|models/item)/'
-
-          echo "Sound definitions:"
-          unzip -l lssmp_rp.zip | grep -E 'sounds.json|\.ogg'
-
-
-      - name: Download java2bedrock-sounds
-        run: |
-          git clone --depth 1 \
-            https://github.com/MCCPF/java2bedrock-sounds.git \
-            "$RUNNER_TEMP/java2bedrock-sounds"
-
-          cd "$RUNNER_TEMP/java2bedrock-sounds"
-
-          cp "$GITHUB_WORKSPACE/lssmp_rp.zip" .
-
-          echo "Installed jq version:"
-          jq --version
-
-          python3 - <<'PY'
-          from pathlib import Path
-
-          path = Path("converter.sh")
-          content = path.read_text()
-
-          old = '"1.6\\|1.7"'
-          new = '"1.6\\|1.7\\|1.8"'
-
-          if old not in content:
-              raise SystemExit("Could not find jq version check!")
-
-          path.write_text(content.replace(old, new, 1))
-          print("Updated jq version check successfully.")
-          PY
-
-
-      - name: Convert Java pack to Bedrock
-        run: |
-          cd "$RUNNER_TEMP/java2bedrock-sounds"
-
-          bash converter.sh lssmp_rp.zip \
-            -w false \
-            -m null \
-            -a entity_alphatest_one_sided \
-            -b alpha_test \
-            -f null
-
-          echo "Checking converter output..."
-
-          test -s target/packaged/geyser_resources.mcpack
-          test -s target/geyser_mappings.json
-
-          jq empty target/geyser_mappings.json
-
-          echo "Conversion successful!"
-
-      - name: Copy Bedrock files
-        run: |
-          CONVERTER="$RUNNER_TEMP/java2bedrock-sounds"
-
-          cp "$CONVERTER/target/packaged/geyser_resources.mcpack" \
-            geyser_resources.mcpack
-
-          cp "$CONVERTER/target/geyser_mappings.json" \
-            geyser_mappings.json
-
-          cp "$CONVERTER/target/packaged/geyser_addon.mcaddon" \
-            geyser_addon.mcaddon
-
-      - name: Check generated files
-        run: |
-          echo "Generated files:"
-          ls -lh \
-            lssmp_rp.zip \
-            geyser_resources.mcpack \
-            geyser_mappings.json \
-            geyser_addon.mcaddon
+          curl -fsSL -o Thunder.jar https://download.geysermc.org/v2/projects/thunder/versions/latest/builds/latest/downloads/thunder
+          java -jar Thunder.jar nogui --input lssmp_rp.zip --output lssmp_rp.mcpack
+          ls -la lssmp_rp.mcpack
 
       - name: Create / update release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
           name: Latest
-          make_latest: true
           files: |
             lssmp_rp.zip
-            geyser_resources.mcpack
-            geyser_mappings.json
-            geyser_addon.mcaddon
+            lssmp_rp.mcpack
