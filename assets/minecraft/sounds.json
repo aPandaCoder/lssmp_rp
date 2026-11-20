@@ -159,5 +159,13 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.babydoll": {
+    "sounds": [
+      {
+        "name": "records/babydoll",
+        "stream": true
+      }
+    ]
   }
 }

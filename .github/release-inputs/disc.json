@@ -40,6 +40,22 @@
         "&eRequires 9 fragments to craft"
       ],
       "description": "OneRepublic - I Ain't Worried"
+    },
+    "babydoll": {
+      "displayName": "&bBabydoll",
+      "author": "&eEly Oaks",
+      "sound": "music_disc.babydoll",
+      "type": "MUSIC_DISC_CHIRP",
+      "customModelData": 1001,
+      "durationTicks": 2320,
+      "fragmentCount": 9,
+      "category": "custom",
+      "lore": [
+        "&7Ely Oaks - Babydoll",
+        "&7Duration: 1:56",
+        "&eRequires 9 fragments to craft"
+      ],
+      "description": "Ely Oaks - Babydoll"
     }
   }
 }
