@@ -151,5 +151,13 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.i_aint_worried": {
+    "sounds": [
+      {
+        "name": "records/i_aint_worried",
+        "stream": true
+      }
+    ]
   }
 }
