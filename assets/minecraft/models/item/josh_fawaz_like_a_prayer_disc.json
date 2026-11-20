@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/josh_fawaz_like_a_prayer_disc"
+  }
+}

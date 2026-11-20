@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/martin_garrix_ed_sheeran_repeat_it_fragment"
+  }
+}

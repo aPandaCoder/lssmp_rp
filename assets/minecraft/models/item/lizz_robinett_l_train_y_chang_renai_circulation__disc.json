@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/lizz_robinett_l_train_y_chang_renai_circulation__disc"
+  }
+}

@@ -1,9 +1,153 @@
 {
-  "lsdisc.aria_math_cinematic_orchestra": {
+  "lsdisc.justice_tame_impala_neverender": {
+    "subtitle": "Justice Tame Impala - Neverender",
+    "sounds": [
+      {
+        "name": "records/justice_tame_impala_neverender",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.darude_sandstorm": {
+    "subtitle": "Darude - Sandstorm",
+    "sounds": [
+      {
+        "name": "records/darude_sandstorm",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.daft_punk_one_more_time": {
+    "subtitle": "Daft Punk - One More Time",
+    "sounds": [
+      {
+        "name": "records/daft_punk_one_more_time",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.mgmt_kids": {
+    "subtitle": "MGMT - Kids",
+    "sounds": [
+      {
+        "name": "records/mgmt_kids",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.avicii_levels_radio_edit": {
+    "subtitle": "Avicii - Levels - Radio Edit",
+    "sounds": [
+      {
+        "name": "records/avicii_levels_radio_edit",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.bl3ss_terms_and_conditions": {
+    "subtitle": "BL3SS - terms and conditions",
+    "sounds": [
+      {
+        "name": "records/bl3ss_terms_and_conditions",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.josh_fawaz_like_a_prayer": {
+    "subtitle": "Josh Fawaz - Like a Prayer",
+    "sounds": [
+      {
+        "name": "records/josh_fawaz_like_a_prayer",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.bass_mode_welcome_to_miami": {
+    "subtitle": "Bass Mode - Welcome To Miami",
+    "sounds": [
+      {
+        "name": "records/bass_mode_welcome_to_miami",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.lizz_robinett_l_train_y_chang_renai_circulation_": {
+    "subtitle": "Lizz Robinett L-Train Y. Chang - Renai Circulation (English Cover) 2012 TV Size",
+    "sounds": [
+      {
+        "name": "records/lizz_robinett_l_train_y_chang_renai_circulation_",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.sam_fender_people_watching": {
+    "subtitle": "Sam Fender - People Watching",
+    "sounds": [
+      {
+        "name": "records/sam_fender_people_watching",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.beastie_boys_sabotage": {
+    "subtitle": "Beastie Boys - Sabotage",
+    "sounds": [
+      {
+        "name": "records/beastie_boys_sabotage",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.madonna_hung_up": {
+    "subtitle": "Madonna - Hung Up",
+    "sounds": [
+      {
+        "name": "records/madonna_hung_up",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.martin_garrix_ed_sheeran_repeat_it": {
+    "subtitle": "Martin Garrix Ed Sheeran - Repeat It",
+    "sounds": [
+      {
+        "name": "records/martin_garrix_ed_sheeran_repeat_it",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.i_aint_worried_onerepublic": {
+    "subtitle": "I Ain't Worried - OneRepublic",
+    "sounds": [
+      {
+        "name": "records/i_aint_worried_onerepublic",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.waytooselfaware": {
+    "subtitle": "waytooselfaware",
+    "sounds": [
+      {
+        "name": "records/waytooselfaware",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.way_too_self_aware_ian_asher": {
+    "subtitle": "Way Too Self Aware - Ian Asher",
+    "sounds": [
+      {
+        "name": "records/way_too_self_aware_ian_asher",
+        "stream": true
+      }
+    ]
+  },
+  "lsdisc.ambnt_aria_math_cinematic_orchestra": {
     "subtitle": "AMBNT - Aria Math - Cinematic Orchestra",
     "sounds": [
       {
-        "name": "records/aria_math_cinematic_orchestra",
+        "name": "records/ambnt_aria_math_cinematic_orchestra",
         "stream": true
       }
     ]

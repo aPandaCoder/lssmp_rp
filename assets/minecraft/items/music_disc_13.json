@@ -7,7 +7,119 @@
         "threshold": 1001,
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/aria_math_cinematic_orchestra_disc"
+          "model": "minecraft:item/justice_tame_impala_neverender_disc"
+        }
+      },
+      {
+        "threshold": 1002,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/darude_sandstorm_disc"
+        }
+      },
+      {
+        "threshold": 1003,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/daft_punk_one_more_time_disc"
+        }
+      },
+      {
+        "threshold": 1004,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/mgmt_kids_disc"
+        }
+      },
+      {
+        "threshold": 1005,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/avicii_levels_radio_edit_disc"
+        }
+      },
+      {
+        "threshold": 1006,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/bl3ss_terms_and_conditions_disc"
+        }
+      },
+      {
+        "threshold": 1007,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/josh_fawaz_like_a_prayer_disc"
+        }
+      },
+      {
+        "threshold": 1008,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/bass_mode_welcome_to_miami_disc"
+        }
+      },
+      {
+        "threshold": 1009,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/lizz_robinett_l_train_y_chang_renai_circulation__disc"
+        }
+      },
+      {
+        "threshold": 1010,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/sam_fender_people_watching_disc"
+        }
+      },
+      {
+        "threshold": 1011,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/beastie_boys_sabotage_disc"
+        }
+      },
+      {
+        "threshold": 1012,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/madonna_hung_up_disc"
+        }
+      },
+      {
+        "threshold": 1013,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/martin_garrix_ed_sheeran_repeat_it_disc"
+        }
+      },
+      {
+        "threshold": 1014,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/i_aint_worried_onerepublic_disc"
+        }
+      },
+      {
+        "threshold": 1015,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/waytooselfaware_disc"
+        }
+      },
+      {
+        "threshold": 1016,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/way_too_self_aware_ian_asher_disc"
+        }
+      },
+      {
+        "threshold": 1017,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ambnt_aria_math_cinematic_orchestra_disc"
         }
       }
     ],
