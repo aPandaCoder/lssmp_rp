@@ -9,6 +9,13 @@
           "type": "minecraft:model",
           "model": "minecraft:item/aria_math_cinematic_orchestra_disc"
         }
+      },
+      {
+        "threshold": 1002,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/i_aint_worried_disc"
+        }
       }
     ],
     "fallback": {

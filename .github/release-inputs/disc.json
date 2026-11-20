@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "categories": {
+    "custom": {
+      "displayName": "&bCustom Music",
+      "description": "Tracks added with the pack generator"
+    }
+  },
+  "playlists": {},
+  "discs": {
+    "waytooselfaware": {
+      "displayName": "&bwaytooselfaware",
+      "author": "&eUnknown Artist",
+      "sound": "lsdisc.waytooselfaware",
+      "type": "MUSIC_DISC_13",
+      "customModelData": 1001,
+      "durationTicks": 3124,
+      "fragmentCount": 9,
+      "category": "custom",
+      "lore": [
+        "&7waytooselfaware",
+        "&7Duration: 2:36",
+        "&eRequires 9 fragments to craft"
+      ],
+      "description": "waytooselfaware",
+      "mono": true
+    },
+    "i_aint_worried": {
+      "displayName": "&bI Ain't Worried",
+      "author": "&eOneRepublic",
+      "sound": "music_disc.i_aint_worried",
+      "type": "MUSIC_DISC_13",
+      "customModelData": 1002,
+      "durationTicks": 2970,
+      "fragmentCount": 9,
+      "category": "custom",
+      "lore": [
+        "&7OneRepublic - I Ain't Worried",
+        "&7Duration: 2:29",
+        "&eRequires 9 fragments to craft"
+      ],
+      "description": "OneRepublic - I Ain't Worried"
+    }
+  }
+}
