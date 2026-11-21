@@ -56,6 +56,22 @@
         "&eRequires 9 fragments to craft"
       ],
       "description": "Ely Oaks - Babydoll"
+    },
+    "labour_the_cacophony": {
+      "displayName": "&bLABOUR - the cacophony",
+      "author": "&eParis Paloma",
+      "sound": "music_disc.labour_the_cacophony",
+      "type": "MUSIC_DISC_PIGSTEP",
+      "customModelData": 30,
+      "durationTicks": 4950,
+      "fragmentCount": 9,
+      "category": "custom",
+      "lore": [
+        "&7Paris Paloma - LABOUR - the cacophony",
+        "&7Duration: 4:08",
+        "&eRequires 9 fragments to craft"
+      ],
+      "description": "Paris Paloma - LABOUR - the cacophony"
     }
   }
 }

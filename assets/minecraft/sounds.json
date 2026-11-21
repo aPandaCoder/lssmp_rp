@@ -167,5 +167,13 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.labour_the_cacophony": {
+    "sounds": [
+      {
+        "name": "records/labour_the_cacophony",
+        "stream": true
+      }
+    ]
   }
 }
