@@ -72,6 +72,22 @@
         "&eRequires 9 fragments to craft"
       ],
       "description": "Paris Paloma - LABOUR - the cacophony"
+    },
+    "fly_high": {
+      "displayName": "&bFly High",
+      "author": "&eToby Romeo",
+      "sound": "music_disc.fly_high",
+      "type": "MUSIC_DISC_CHIRP",
+      "customModelData": 1004,
+      "durationTicks": 3320,
+      "fragmentCount": 9,
+      "category": "custom",
+      "lore": [
+        "&7Toby Romeo - Fly High",
+        "&7Duration: 2:46",
+        "&eRequires 9 fragments to craft"
+      ],
+      "description": "Toby Romeo - Fly High"
     }
   }
 }

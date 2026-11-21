@@ -9,6 +9,13 @@
           "type": "minecraft:model",
           "model": "minecraft:item/babydoll_disc"
         }
+      },
+      {
+        "threshold": 1004,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/fly_high_disc"
+        }
       }
     ],
     "fallback": {

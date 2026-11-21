@@ -175,5 +175,13 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.fly_high": {
+    "sounds": [
+      {
+        "name": "records/fly_high",
+        "stream": true
+      }
+    ]
   }
 }
